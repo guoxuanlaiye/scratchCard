@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		366539501FC7B7550094FC2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665394F1FC7B7550094FC2A /* AppDelegate.swift */; };
+		366539521FC7B7550094FC2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366539511FC7B7550094FC2A /* ViewController.swift */; };
+		366539551FC7B7550094FC2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366539531FC7B7550094FC2A /* Main.storyboard */; };
+		366539571FC7B7550094FC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366539561FC7B7550094FC2A /* Assets.xcassets */; };
+		3665395A1FC7B7550094FC2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366539581FC7B7550094FC2A /* LaunchScreen.storyboard */; };
+		366539681FC7EAFF0094FC2A /* ScratchMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366539661FC7EAFF0094FC2A /* ScratchMask.swift */; };
+		366539691FC7EAFF0094FC2A /* ScratchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366539671FC7EAFF0094FC2A /* ScratchCard.swift */; };
+		3665396C1FC7EDAD0094FC2A /* coupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3665396A1FC7EDAD0094FC2A /* coupon.png */; };
+		3665396D1FC7EDAD0094FC2A /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 3665396B1FC7EDAD0094FC2A /* mask.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3665394C1FC7B7550094FC2A /* 刮刮卡Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "刮刮卡Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3665394F1FC7B7550094FC2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		366539511FC7B7550094FC2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		366539541FC7B7550094FC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		366539561FC7B7550094FC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		366539591FC7B7550094FC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3665395B1FC7B7550094FC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366539661FC7EAFF0094FC2A /* ScratchMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchMask.swift; sourceTree = "<group>"; };
+		366539671FC7EAFF0094FC2A /* ScratchCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCard.swift; sourceTree = "<group>"; };
+		3665396A1FC7EDAD0094FC2A /* coupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupon.png; sourceTree = "<group>"; };
+		3665396B1FC7EDAD0094FC2A /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		366539491FC7B7550094FC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		366539431FC7B7540094FC2A = {
+			isa = PBXGroup;
+			children = (
+				3665394E1FC7B7550094FC2A /* 刮刮卡Demo */,
+				3665394D1FC7B7550094FC2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3665394D1FC7B7550094FC2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3665394C1FC7B7550094FC2A /* 刮刮卡Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3665394E1FC7B7550094FC2A /* 刮刮卡Demo */ = {
+			isa = PBXGroup;
+			children = (
+				366539651FC7EAE10094FC2A /* Scratch */,
+				3665394F1FC7B7550094FC2A /* AppDelegate.swift */,
+				366539511FC7B7550094FC2A /* ViewController.swift */,
+				366539531FC7B7550094FC2A /* Main.storyboard */,
+				366539561FC7B7550094FC2A /* Assets.xcassets */,
+				366539581FC7B7550094FC2A /* LaunchScreen.storyboard */,
+				3665395B1FC7B7550094FC2A /* Info.plist */,
+			);
+			path = "刮刮卡Demo";
+			sourceTree = "<group>";
+		};
+		366539651FC7EAE10094FC2A /* Scratch */ = {
+			isa = PBXGroup;
+			children = (
+				3665396A1FC7EDAD0094FC2A /* coupon.png */,
+				3665396B1FC7EDAD0094FC2A /* mask.png */,
+				366539671FC7EAFF0094FC2A /* ScratchCard.swift */,
+				366539661FC7EAFF0094FC2A /* ScratchMask.swift */,
+			);
+			path = Scratch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3665394B1FC7B7550094FC2A /* 刮刮卡Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3665395E1FC7B7550094FC2A /* Build configuration list for PBXNativeTarget "刮刮卡Demo" */;
+			buildPhases = (
+				366539481FC7B7550094FC2A /* Sources */,
+				366539491FC7B7550094FC2A /* Frameworks */,
+				3665394A1FC7B7550094FC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "刮刮卡Demo";
+			productName = "刮刮卡Demo";
+			productReference = 3665394C1FC7B7550094FC2A /* 刮刮卡Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		366539441FC7B7540094FC2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = cofco;
+				TargetAttributes = {
+					3665394B1FC7B7550094FC2A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 366539471FC7B7540094FC2A /* Build configuration list for PBXProject "刮刮卡Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 366539431FC7B7540094FC2A;
+			productRefGroup = 3665394D1FC7B7550094FC2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3665394B1FC7B7550094FC2A /* 刮刮卡Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3665394A1FC7B7550094FC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3665395A1FC7B7550094FC2A /* LaunchScreen.storyboard in Resources */,
+				3665396D1FC7EDAD0094FC2A /* mask.png in Resources */,
+				3665396C1FC7EDAD0094FC2A /* coupon.png in Resources */,
+				366539571FC7B7550094FC2A /* Assets.xcassets in Resources */,
+				366539551FC7B7550094FC2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		366539481FC7B7550094FC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366539521FC7B7550094FC2A /* ViewController.swift in Sources */,
+				366539501FC7B7550094FC2A /* AppDelegate.swift in Sources */,
+				366539691FC7EAFF0094FC2A /* ScratchCard.swift in Sources */,
+				366539681FC7EAFF0094FC2A /* ScratchMask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		366539531FC7B7550094FC2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				366539541FC7B7550094FC2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		366539581FC7B7550094FC2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				366539591FC7B7550094FC2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3665395C1FC7B7550094FC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3665395D1FC7B7550094FC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3665395F1FC7B7550094FC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "刮刮卡Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cofco.---Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		366539601FC7B7550094FC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "刮刮卡Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cofco.---Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		366539471FC7B7540094FC2A /* Build configuration list for PBXProject "刮刮卡Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3665395C1FC7B7550094FC2A /* Debug */,
+				3665395D1FC7B7550094FC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3665395E1FC7B7550094FC2A /* Build configuration list for PBXNativeTarget "刮刮卡Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3665395F1FC7B7550094FC2A /* Debug */,
+				366539601FC7B7550094FC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 366539441FC7B7540094FC2A /* Project object */;
+}
